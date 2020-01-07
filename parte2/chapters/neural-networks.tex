@@ -23,7 +23,7 @@ Le reti neurali possono essere spiegate dal punto di vista ingegneristico (proge
 \noindent McCalloch e Pitts nel 43' hanno già progettato il modello in figura \ref{pemc} che prende il nome proprio dai sui ideatori.
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{img/PEMC.png}
+\includegraphics[scale=0.4]{img/PEMC.png}
 \caption{Processore elementare di McCalloch e Pitts }
 \label{pemc}
 \end{figure}
@@ -50,7 +50,7 @@ Il sistema si può applicare al caso multiclasse utilizzando la tecnica \emph{on
 \noindent La sudduvisione netta appena vista è troppo hard, allora introduciamo un po' \emph{soft computing}, introduciamo un po' di smussatura nella transizione dal passaggio di pattern che appartengono ad una classe e pattern che appartengono ad un altra classe.  Quindi la superficie di decisione non è un iperpiano ma è una superficie di decisione generica. Una funzione che si comporta in questo modo potrebbe essere la funzione tangente iperbolica (Figura \ref{funzioni}) che per come è strutturata ci consente di passare da -1 a 1.
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{img/funzioni.png}
+\includegraphics[scale=0.5]{img/funzioni.png}
 \caption{Funzioni}
 \label{funzioni}
 \end{figure}
@@ -147,7 +147,7 @@ quindi la non linearità di $f$ entra in gioco soltanto nel calcolo della deriva
 \noindent Il percettrone (Fig. \ref{percet}) è un neurone specifico un pò più complesso, naturalmente ha delle sue capacità discriminatorie. Il percettrone non funziona nel caso specifico dello xor. Supponiamo un caso di classificazione dicotomico (classificazione di due classi), possiamo effettuare la classificazione in vari modi, per esempio si può utilizzare un solo neurone che discrimina 1 o -1 a seconda della classe di appartenenza. Nel caso in cui abbiamo due neuroni allora abbiamo due valori di uscita $y_1$ ed $y_2$ ed in base alla configurazione di output vince una o l'altra classe. Un esempio di codifica che si può dare è quella di attribuire una valore unitario alla classe vincente e tutti gli altri zero, quindi bisogna far si che i pesi siano tali da far vincere soltanto il neurone corrispondente alla classe a cui esso appartiene. Gli altri invece devono essere tali da far si che il valore della funzione sia sempre zero.
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{img/percettrone.png}
+\includegraphics[scale=0.5]{img/percettrone.png}
 \caption{Percettrone}
 \label{percet}
 \end{figure}
@@ -157,7 +157,7 @@ Si potrebbero anche codificare l'output come il sistema di numerazione binario, 
 \noindent Abbiamo visto che uno dei problemi del percettrone è il problema dello xor. Per risolvere il problema viene progettata un rete denominata \emph{Multilayer Perceptron} (Fig \ref{mp}).
 \begin{figure}
 \centering
-\includegraphics[scale=0.6]{img/mp.png}
+\includegraphics[scale=0.5]{img/mp.png}
 \caption{Multilayer Perceptron}
 \label{mp}
 \end{figure}
